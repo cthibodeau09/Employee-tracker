@@ -1,4 +1,4 @@
-const connection = require('./config/connection');
+const connection = require('./config/connections');
 const inquirer = require('inquirer');
 const validate = require('./javascript/validate');
 import('chalk').then((chalk) => {
